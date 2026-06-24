@@ -408,7 +408,7 @@ def menu_principal(db):
         print("  [2] Expresiones Regulares")
         print("  [3] Búsquedas en Subdocumentos")
         print("  [4] lookup y Agregaciones")
-        print("  [5] ⚙️ Cargar/Resetear datos de prueba (JSON)")
+        print("  [5] Cargar/Resetear datos de prueba")
         print("  [0] Salir")
         op = input("\n  Selecciona: ").strip()
         if op == "1": menu1(db)
