@@ -1,8 +1,3 @@
-"""
-setup_db.py – Poblar la base de datos prueba3 con los JSON de la evaluación.
-Ejecutar UNA vez antes de usar gestor_eventos.py
-"""
-
 import json
 from pymongo import MongoClient
 
